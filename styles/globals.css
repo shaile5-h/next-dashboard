@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200;
+}
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity)); 
+}
+
+.dark .bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity)); 
+}
+
+.dark .text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgba(229, 231, 235, var(--tw-text-opacity)); 
+}
+
+.dark .text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity)); 
+}
+
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+
+/* styles/globals.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200;
+}
+
+.dark .bg-white {
+  @apply bg-gray-800;
+}
+
+.dark .text-gray-800 {
+  @apply text-gray-200;
+}
+
+.dark .bg-gray-50 {
+  @apply bg-gray-700;
+}
+
+.dark .hover\\:bg-gray-100:hover {
+  @apply hover:bg-gray-600;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-400;
+}
+
+.dark .bg-green-200 {
+  @apply bg-green-800;
+}
+
+.dark .text-green-600 {
+  @apply text-green-400;
+}
+
+.dark .text-green-700 {
+  @apply text-green-300;
+}
+
+.dark .bg-purple-100 {
+  @apply bg-purple-700;
+}
+
+.dark .text-purple-800 {
+  @apply text-purple-200;
+}
+
+.dark .bg-red-300 {
+  @apply bg-red-800;
+}
+
+.dark .bg-yellow-200 {
+  @apply bg-yellow-800;
+}
+
+.dark .hover\\:bg-gray-200:hover {
+  @apply hover:bg-gray-700;
+} */
